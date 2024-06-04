@@ -12,7 +12,7 @@ import ICRC1 "..";
 import Archive "Archive";
 
 shared ({ caller = _owner }) actor class Token(
-    init_args : ICRC1.TokenInitArgs,
+    init_args : ICRC1.TokenInitArgs
 ) : async ICRC1.FullInterface {
 
     let icrc1_args : ICRC1.InitArgs = {
@@ -73,7 +73,7 @@ shared ({ caller = _owner }) actor class Token(
             #GenericError {
                 error_code = 401;
                 message = "Unauthorized: Minting is not allowed.";
-            },
+            }
         );
     };
 
@@ -112,7 +112,6 @@ shared ({ caller = _owner }) actor class Token(
     public shared query func min_burn_amount() : async ICRC1.Balance {
         ICRC1.min_burn_amount(token);
     };
-
 
     public shared query func get_archive() : async ICRC1.ArchiveInterface {
         ICRC1.get_archive(token);
