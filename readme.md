@@ -4,6 +4,17 @@ a fork of [SNEED](https://github.com/icsneed/sneed) fork of the [NatLabs impleme
 
 Created as a celebration for [ICPCC24](https://www.icp-cc.com/)
 
+# Important Instruction!!
+
+In the file ./src/ICRC1/Canisters/Archive.mo on line 29
+
+Update the canister id to your ledger canister id
+The current code looks like this:
+
+    let original_canister_id = Principal.fromText("7tvr6-fqaaa-aaaan-qmira-cai");
+
+## The rest of the readme
+
 NB: A logo field has been added to the construction arguments. Below is the example from NatLabs, modified to include the logo field.
     
   - Replace the values enclosed in `< >` with your desired values and run in the terminal 
