@@ -1,8 +1,8 @@
-# ALIEN ICRC-1 
-This repo contains the source code for the ALIEN ICRC1 token, 
-a fork of [SNEED](https://github.com/icsneed/sneed) fork of the [NatLabs implementation](https://github.com/NatLabs/icrc1) of the [ICRC-1](https://github.com/dfinity/ICRC-1) token standard. 
+# CLOWN ICRC-1 TOKEN
+This repo contains the source code for the CLOWN ICRC1 token, 
+a fork of [ALIEN](https://github.com/The-Needful-DO-org/alien-token) fork of the [SNEED](https://github.com/icsneed/sneed) fork of the [NatLabs implementation](https://github.com/NatLabs/icrc1) of the [ICRC-1](https://github.com/dfinity/ICRC-1) token standard. 
 
-Created as a celebration for [ICPCC24](https://www.icp-cc.com/)
+We do a little forking ;)
 
 # Important Instruction!!
 
