@@ -26,7 +26,7 @@ shared ({ caller = ledger_canister_id }) actor class Archive() : async T.Archive
         size : Nat;
     };
 
-    let original_canister_id = Principal.fromText("7tvr6-fqaaa-aaaan-qmira-cai");
+    let original_canister_id = Principal.fromText("iwv6l-6iaaa-aaaal-ajjjq-cai");
     stable let KiB = 1024;
     stable let GiB = KiB ** 3;
     stable let MEMORY_PER_PAGE : Nat64 = Nat64.fromNat(64 * KiB);
