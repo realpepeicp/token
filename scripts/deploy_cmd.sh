@@ -2,7 +2,7 @@
         name = \"Insane Clown Protocol\";                         
         symbol = \"CLOWN\";                           
         decimals = 8;                               
-        fee = 0.0005; 
+        fee = 50000; 
         max_supply = 1_000_000_000_0000_0000;
         logo = \"data:image/jpeg;base64,$(base64 -w 0 clown-logo.jpg)\";                                        
         initial_balances = vec {                                
