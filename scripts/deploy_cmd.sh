@@ -17,7 +17,7 @@
         min_burn_amount = 10_000;
         minting_account = (
             opt record {
-                owner=principal \"t5kgr-44ker-fn3gq-uqqzo-mskle-2oqhl-dmxlo-25p4u-dbxdx-2c332-dae\"; 
+                owner=principal \"klp6a-qwls4-atsmj-3letr-sehl5-4qynl-a3una-l376r-gear2-pbmst-eqe\"; 
                 subaccount=null
             }
         );
