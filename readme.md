@@ -1,5 +1,5 @@
-# CLOWN ICRC-1 TOKEN
-This repo contains the source code for the CLOWN ICRC1 token, 
+# PEPE ICRC-1 TOKEN
+This repo contains the source code for the PEPE ICRC1 token, 
 a fork of [ALIEN](https://github.com/The-Needful-DO-org/alien-token) fork of the [SNEED](https://github.com/icsneed/sneed) fork of the [NatLabs implementation](https://github.com/NatLabs/icrc1) of the [ICRC-1](https://github.com/dfinity/ICRC-1) token standard. 
 
 We do a little forking ;)
