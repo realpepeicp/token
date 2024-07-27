@@ -1,17 +1,17 @@
     dfx deploy icrc1 --argument "( record {               
-        name = \"Insane Clown Protocol\";                         
-        symbol = \"CLOWN\";                           
+        name = \"PEPE\";                         
+        symbol = \"PEPE\";                           
         decimals = 8;                               
-        fee = 50000; 
-        max_supply = 1_000_000_000_0000_0000;
+        fee = 42069; 
+        max_supply = 420_436_954_965;
         logo = \"data:image/jpeg;base64,$(base64 -w 0 clown-logo.jpg)\";                                        
         initial_balances = vec {                                
             record {                                            
                 record {
-                    owner = principal \"d5jbw-krtiv-v5xi4-jj6cf-53euc-vlcbd-u73lb-wlwdj-a5ijb-evlu4-qqe\";   
+                    owner = principal \"qhw6f-yij7k-sctbp-fwu7v-4lm72-efdwp-7qizz-cuxd3-tn3qb-53hxn-iae\";   
                     subaccount = null;                          
                 };                                              
-                1_000_000_000_0000_0000
+                420_436_954_965
             };                                                   
         };                                                             
         min_burn_amount = 10_000;
