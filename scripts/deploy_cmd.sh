@@ -4,7 +4,7 @@
         decimals = 8;                               
         fee = 42069; 
         max_supply = 420_436_954_965;
-        logo = \"data:image/jpeg;base64,$(base64 -w 0 clown-logo.jpg)\";                                        
+        logo = \"data:image/jpeg;base64,$(base64 -w 0 pepe.jpg)\";                                        
         initial_balances = vec {                                
             record {                                            
                 record {
