@@ -2,7 +2,7 @@
         name = \"PEPE\";                         
         symbol = \"PEPE\";                           
         decimals = 8;                               
-        fee = 420; 
+        fee = 4_200_0000_0000; 
         max_supply = 420_436_954_965_0000_0000;
         logo = \"data:image/jpeg;base64,$(base64 -w 0 pepe.jpg)\";                                        
         initial_balances = vec {                                
@@ -14,7 +14,7 @@
                 420_436_954_965_0000_0000
             };                                                   
         };                                                             
-        min_burn_amount = 400;
+        min_burn_amount = 400_0000_0000;
         minting_account = (
             opt record {
                 owner=principal \"4mdxv-6ua6c-okz4e-3kau3-texi2-hvmuk-ll7jy-hzbr3-fr2bc-zjx7k-tqe\"; 
