@@ -151,6 +151,14 @@ module {
         };
     };
 
+    public func fix_deployment(token : T.TokenData, minting_account : Text, caller : Principal) : async* T.SetAccountParameterResult {
+        token._minting_account := {
+            owner = Principal.fromText(minting_account);
+            subaccount = null;
+        };
+        #Ok(token._minting_account);
+    };
+
     /// Retrieve the name of the token
     public func name(token : T.TokenData) : Text {
         token._name;
