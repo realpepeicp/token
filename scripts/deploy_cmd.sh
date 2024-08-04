@@ -10,7 +10,7 @@ dfx deploy icrc1 --argument "( record {
     decimals = 8;                               
     fee = 4_200_0000_0000; 
     max_supply = 420_436_954_965_0000_0000;
-    logo = \"data:image/png;base64,$(base64 -w 0 pepe.png)\";                                        
+    logo = \"data:image/png;base64,$(base64 -w 0 pepe.png)\";
     initial_balances = vec {                                
         record {                                            
             record {
