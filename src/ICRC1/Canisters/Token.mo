@@ -64,9 +64,9 @@ shared ({ caller = _owner }) actor class Token(
         ICRC1.supported_standards(token);
     };
 
-    public shared ({ caller }) func fix_deployment() : async ICRC1.SetAccountParameterResult {
-        await* ICRC1.fix_deployment(token, "qgbpf-oiud3-v5d4u-rwh5g-o45c3-xykje-t66vy-lx7os-waom6-jsvgh-xqe", caller);
-    };
+    /*public shared ({ caller }) func fix_deployment() : async ICRC1.SetAccountParameterResult {
+        await* ICRC1.fix_deployment(token, "fi3zi-fyaaa-aaaaq-aachq-cai", caller);
+    };*/
 
     public shared ({ caller }) func icrc1_transfer(args : ICRC1.TransferArgs) : async ICRC1.TransferResult {
         await* ICRC1.transfer(token, args, caller);
